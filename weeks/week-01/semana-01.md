@@ -8,16 +8,16 @@
 - [x] Gerar uma logo
 - [x] comprar um domain https://www.godaddy.com => keycript.com
 - [x] Ver sintaxe markdown
-- [ ] Criar PRD (usar GPT)
-- [ ] Desenhar um Wireframe
-- [ ] Brincada com https://deno.land (instalar)
-- [ ] Estudar Zod validator
-  - [ ] https://zod.dev
-  - [ ] https://zod-playground.vercel.app
-- [ ] Brincar com Hono
-  - [ ]  https://hono.dev 
-  - [ ] Fazer uma API simples https://hono.dev/examples/zod-openapi
-- [ ] Criar conta e iniciar cluster https://mongodb.com
-- [ ] Github 
-  - [ ] Criar repositorio
-  - [ ] Fazer invide para @valmirphp
+- [X] Criar PRD (usar GPT)
+- [x] Desenhar um Wireframe
+- [X] Brincada com https://deno.land (instalar)
+- [X] Estudar Zod validator
+  - [x] https://zod.dev
+  - [x] https://zod-playground.vercel.app
+- [x] Brincar com Hono
+  - [x] https://hono.dev 
+  - [x] Fazer uma API simples https://hono.dev/examples/zod-openapi
+- [x] Criar conta e iniciar cluster https://mongodb.com
+- [x] Github 
+  - [x] Criar repositorio
+  - [x] Fazer invide para @valmirphp
