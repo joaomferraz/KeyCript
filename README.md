@@ -11,7 +11,9 @@
 
 ## 🎯 Sobre o Projeto
 
-KeyCript é um **gerenciador de senhas seguro** desenvolvido como projeto de estudo para aprender tecnologias modernas de desenvolvimento fullstack com foco em segurança digital.
+KeyCript é um **gerenciador de senhas seguro** desenvolvido como projeto de
+estudo para aprender tecnologias modernas de desenvolvimento fullstack com foco
+em segurança digital.
 
 ### ✨ Funcionalidades (MVP)
 
@@ -30,22 +32,24 @@ KeyCript é um **gerenciador de senhas seguro** desenvolvido como projeto de est
 
 ## 🧰 Stack Tecnológica
 
-| Camada | Tecnologia |
-|--------|------------|
-| **Backend** | [Deno](https://deno.land/) + [Hono](https://hono.dev/) |
-| **Frontend** | React + CSS Modules |
-| **Banco de Dados** | MongoDB Atlas |
-| **Deploy** | Deno Deploy + Vercel |
-| **CI/CD** | GitHub Actions |
+| Camada             | Tecnologia                                             |
+| ------------------ | ------------------------------------------------------ |
+| **Backend**        | [Deno](https://deno.land/) + [Hono](https://hono.dev/) |
+| **Frontend**       | React + CSS Modules                                    |
+| **Banco de Dados** | MongoDB Atlas                                          |
+| **Deploy**         | Deno Deploy + Vercel                                   |
+| **CI/CD**          | GitHub Actions                                         |
 
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - [Deno](https://deno.land/) v1.40+
 - [Node.js](https://nodejs.org/) v18+
 - MongoDB (local ou Atlas)
 
 ### Backend
+
 ```bash
 cd backend
 cp .env.example .env
@@ -54,6 +58,7 @@ deno run --allow-net --allow-env --allow-read main.ts
 ```
 
 ### Frontend
+
 ```bash
 cd frontend
 npm install
@@ -61,6 +66,7 @@ npm run dev
 ```
 
 ### Docker (Opcional)
+
 ```bash
 docker-compose up -d
 ```
@@ -111,6 +117,7 @@ MIT License - veja [LICENSE](LICENSE) para detalhes.
 ## 📚 Aprendizados
 
 Este projeto foi desenvolvido para estudar:
+
 - Arquitetura fullstack moderna
 - Práticas de segurança em aplicações web
 - DevOps e CI/CD
@@ -119,8 +126,8 @@ Este projeto foi desenvolvido para estudar:
 
 ## 📞 Contato
 
-**Desenvolvedor**: João  
-**Site**: [keycript.com](https://keycript.com)  
+**Desenvolvedor**: João\
+**Site**: [keycript.com](https://keycript.com)\
 **Repositório**: [GitHub](https://github.com/username/keycript)
 
 ---

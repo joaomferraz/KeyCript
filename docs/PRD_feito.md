@@ -2,7 +2,8 @@
 
 ## 🧠 Visão Geral
 
-Projeto de estudo com objetivo de construir um **gerenciador de senhas seguro**, com foco em aprendizado prático de:
+Projeto de estudo com objetivo de construir um **gerenciador de senhas seguro**,
+com foco em aprendizado prático de:
 
 - Arquitetura fullstack moderna
 - Práticas de segurança digital
@@ -21,27 +22,32 @@ Projeto de estudo com objetivo de construir um **gerenciador de senhas seguro**,
 ## 📦 Funcionalidades
 
 ### 🔐 Autenticação
+
 - [x] Registro
 - [x] Login
 - [x] Logout
 - [x] Recuperar senha (email/token)
 
 ### 🧾 CRUD de Credenciais
+
 - [x] Criar
 - [x] Listar
 - [x] Editar
 - [x] Deletar
 
 ### 📁 Organização por Pastas
+
 - Agrupar credenciais por categorias
 
 ### 🔐 Geração de Senhas Seguras
+
 - Comprimento personalizável
 - Letras maiúsculas / minúsculas
 - Números e símbolos
 - Cálculo de entropia
 
 ### 🕵️‍♂️ Mensagens entre "espiões"
+
 - Comunicação segura entre usuários usando **GPG (Kleopatra)**
 
 ---

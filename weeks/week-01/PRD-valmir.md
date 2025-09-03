@@ -6,8 +6,8 @@ Descreva aqui o q é projeto.
 
 ## Requisitos
 
-- Auth 
-  - Registrar 
+- Auth
+  - Registrar
   - Logar
   - Logout
   - Recuperar senha
@@ -19,13 +19,11 @@ Descreva aqui o q é projeto.
 ## Stack
 
 - TYPESCRIPT (pra tudo front + back)
-- Back: https://deno.com/ + https://hono.dev/docs/ 
-- Front: React 
+- Back: https://deno.com/ + https://hono.dev/docs/
+- Front: React
 - MongoDB
 - Deno deploy
 - VPS + docker
-
-
 
 ## Requisito não funcional
 
@@ -33,18 +31,14 @@ Descreva aqui o q é projeto.
 - Desktop
 - Mobile PWA
   - first offline
-  - first mobile 
-
-
+  - first mobile
 
 ## Deadline
 
 - 6 semanas
 
-
-
 ## Pos desafio
 
 - implementar mobile (https://www.flutterflow.io/)
-- primeiro momento aplicação sera offline só no conceito de acessar os dados OFFLINE, mais pra criar nocas credenciais tera q estar ONLINE
-
+- primeiro momento aplicação sera offline só no conceito de acessar os dados
+  OFFLINE, mais pra criar nocas credenciais tera q estar ONLINE

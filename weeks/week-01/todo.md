@@ -5,4 +5,3 @@
 - opentelemetry
 - CI/CD
 - prompts para gerar front (usar doc do swager para IA gerar o front)
-
