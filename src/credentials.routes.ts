@@ -2,6 +2,7 @@ import { Hono } from 'hono';
 import { db } from './db.ts';
 import { authMiddleware } from './middleware/auth.ts';
 import { ObjectId } from 'npm:mongodb';
+import { Credential } from './models/credential.ts';
 
 type MyEnv = {
   Variables: {
@@ -10,15 +11,6 @@ type MyEnv = {
 };
 
 const route = new Hono<MyEnv>();
-
-interface Credential {
-  _id?: ObjectId | string;
-  userId: string;
-  title: string;
-  username: string;
-  password: string;
-  folder?: string;
-}
 
 const credentials = db.collection<Credential>('credentials');
 

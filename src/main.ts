@@ -47,7 +47,7 @@ openapiApp.get('/', (c) => {
 });
 
 // root unifica tudo
-const app = new Hono();
+export const app = new Hono();
 app.route('/auth', authRoutes); // rotas protegidas
 app.route('/credentials', credentialRoutes);
 app.route('/', openapiApp as unknown as Hono); // documentação + públicas
