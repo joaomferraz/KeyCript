@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "mongodb": "npm:mongodb@^6.19.0",
+    "hono": "npm:hono@^4.9.6",
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@^1.1.0",
+    "@hono/swagger-ui": "npm:@hono/swagger-ui@^0.5.2"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch src/main.ts",
+    "test": "deno test -A --watch",
+    "test:cov": "deno test -A --coverage=coverage",
+    "coverage": "deno coverage coverage",
+    "coverage:html": "deno coverage coverage --html",
+    "test:coverage": "deno test -A --coverage=coverage && deno coverage coverage --html"
+  }
+}
