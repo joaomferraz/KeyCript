@@ -1,4 +1,4 @@
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2OGNiMmE0Yzc2MWZlNzlhNzc0ZGJiMmIiLCJleHAiOjE3NTgyMzE1MjZ9.Xq6BiuTxCLsrjtnbxPw3OtmtRw16rcf28Psb83kqA9Y
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2OGNiMmE0Yzc2MWZlNzlhNzc0ZGJiMmIiLCJleHAiOjE3NTkzNjA0NDN9._C_1TvL0D0ZtIISNEBymndphdTHxsK-EqDzvJJg1jU8
 
 ### Criar
 POST http://localhost:4000/auth/register
