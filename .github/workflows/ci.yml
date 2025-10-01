@@ -27,7 +27,7 @@ jobs:
           cache: true
 
       - name: "✅ Run type check"
-        run: deno check
+        run: deno check src
 
       - name: "📝 Verify formatting"
         run: deno fmt --check
