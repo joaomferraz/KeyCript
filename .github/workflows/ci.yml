@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, other]
   pull_request:
   workflow_dispatch:
 
@@ -13,26 +13,6 @@ jobs:
   test_api:
     name: "🧪 Test API"
     runs-on: ubuntu-latest
-
-    # services:
-    #   mysql:
-    #     image: mysql:8.0
-    #     env:
-    #       MYSQL_ROOT_PASSWORD: root
-    #       MYSQL_DATABASE: test
-    #     ports:
-    #       - 3306:3306
-    #     options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
-
-    #   rabbitmq:
-    #     image: rabbitmq:3-management-alpine
-    #     ports:
-    #       - 5672:5672
-
-    # env:
-    #   DATABASE_URL: mysql://root:root@localhost:3306/test
-    #   DATABASE_URL_TEST: mysql://root:root@localhost:3306/test
-    #   RABBITMQ_URL: amqp://guest:guest@localhost:5672
 
     steps:
       - name: "🛠️ Setup repo"
@@ -46,28 +26,14 @@ jobs:
           deno-version: v2.x
           cache: true
 
-      # - name: "📥 Install dependencies"
-      #   run: deno install --allow-scripts
-
-      # - name: "💾 Run prisma validate"
-      #   run: deno task --cwd=api prisma:validate
-
-      - name: "👾 Run migrations"
-        run: deno task --cwd=api prisma:migrate
+      - name: "✅ Run type check"
+        run: deno check src
 
       - name: "📝 Verify formatting"
         run: deno fmt --check
 
       - name: "🔍 Run linter"
-        run: deno lint
-        working-directory: api
-
-      - name: "✅ Run type check"
-        run: deno check
-        working-directory: api
+        run: deno lint                      
 
       - name: "🧪 Run tests"
-        run: deno task --cwd=api test:cov
-
-      # - name: "📊 Run check coverage"
-      #   run: deno task --cwd=api test:cov-check
+        run: deno test
