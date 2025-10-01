@@ -26,15 +26,14 @@ jobs:
           deno-version: v2.x
           cache: true
 
+      - name: "✅ Run type check"
+        run: deno check
+
       - name: "📝 Verify formatting"
         run: deno fmt --check
 
       - name: "🔍 Run linter"
-        run: deno lint        
-
-      - name: "✅ Run type check"
-        run: deno check
-        working-directory: api
+        run: deno lint                      
 
       - name: "🧪 Run tests"
         run: deno test
